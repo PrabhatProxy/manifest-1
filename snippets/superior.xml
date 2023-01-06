@@ -33,11 +33,17 @@
 
   <project path="manifest" name="manifest" remote="superior" />
 
+  <!-- Bootable repos -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+
   <!-- Device repos -->
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
 
   <!-- External repos -->
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="superior" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="superior" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="superior" />
+  <project path="external/mksh" name="android_external_mksh" remote="superior" />
 
   <!-- Framework repos -->
   <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
@@ -60,6 +66,8 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
   <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="superior" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="superior" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="superior" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
   <project path="packages/resources/ThemedIcons" name="android_packages_resources_ThemedIcons" remote="superior">
@@ -74,6 +82,8 @@
 
   <!-- System repos -->
   <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
 
 </manifest>
