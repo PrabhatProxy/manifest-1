@@ -68,6 +68,7 @@
 
   <!-- frameworks repos -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- hardware repos -->
