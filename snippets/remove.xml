@@ -124,4 +124,8 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/system/timezone" />
 </manifest>
